@@ -2974,7 +2974,7 @@ df_user.usr_id = :usr_id";
 		if ($files[0] == NULL) {
 			echo "#";
 		} else {
-			echo $files[0];
+			echo $files[0];			
 		}
 	}
 
@@ -2982,10 +2982,10 @@ df_user.usr_id = :usr_id";
 		try {
 			$usr_phone = $this->getUsr_phone();
 			$usr_confirm_code = mt_rand(1000, 9999); //phone
-			$sid = 'AC4d31d4dc2488e599884e2c4592c414f1';
-			$token = '848f6e20427598ba2e4f3ddc6b63087f';
+			$sid = 'xxxx';
+			$token = 'xx';
 			$client = new Client($sid, $token);
-			$twilio_number = "+14159961226";
+			$twilio_number = "+xxxxxxxx";
 			$response = $client->messages->create("'" . $usr_phone . "'", array('from' => $twilio_number, 'body' => 'tsxxxads.com.com - your phone verification code is ' . $usr_confirm_code));
 //print_r($response);
 			if ($response) {
