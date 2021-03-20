@@ -187,7 +187,7 @@ df_setting";
 	}
 
 	public function getClientId() {
-//		$this->clientId = "AXCUWuhuJBKAwbMPOlzjm4JQxhsndZE4UwpXOvrKeJFUsZmyiu__Gn8cnfEiSXnuUAzFHhwvg5EJDAvO";		
+//		$this->clientId = "xx";		
 		return $this->clientId;
 	}
 
@@ -197,7 +197,7 @@ df_setting";
 	}
 
 	public function getClientSecret() {
-//		$this->clientSecret = "EHxZF6uXm-sVSQoVsMW5BDZ3nrckJP_jRgfMsT-qZVGLSmPYOR-kJDGFsBx441eOIgLvcgSnX1RaOj-v";
+//		$this->clientSecret = "xx";
 		return $this->clientSecret;
 	}
 
